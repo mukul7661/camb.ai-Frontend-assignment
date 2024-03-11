@@ -1,0 +1,46 @@
+html,
+bofy,
+html *,
+body * {
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0.5em;
+}
+.board {
+  height: 90vh;
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 40px;
+  border: 1px solid black;
+}
+.column {
+  height: 100px;
+  width: 100vw;
+  float: left;
+
+  overflow-y: hidden;
+}
+.column-content {
+  height: 100%;
+  display: flex;
+}
+.column-title {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  /* height: 15%; */
+  width: 500px;
+  margin: 0.4em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dddddd;
+  border: 1px solid #333333;
+}
